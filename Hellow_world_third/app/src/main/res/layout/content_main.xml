@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ritu.hellow_world.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- <TextView
+            android:id="@+id/text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:capitalize="characters"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+             android:text="Hii Ritu"
+            android:textColor="@android:color/holo_purple"
+            android:textColorHighlight="@android:color/primary_text_dark"
+            android:textSize="50dp" /> -->
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:text="saved"
+            android:onClick="save"
+            android:layout_below="@+id/edit_id"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
